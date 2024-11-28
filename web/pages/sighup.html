@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="Krypton web site">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/reset.css"/>
+	<link rel="stylesheet" href="styles/style_up.css"/>
+	<link rel="icon" href="images/Krypton.jpg" type="image/x-icon"/>
+    	<title>Krypton</title>
+</head>
+<body>
+	<header>
+		<nav class="navigation">
+			<div class="nav_items">
+				<div class="nav_left">
+					<a class="href" href="#contacts">Contacts</a>
+				</div>
+			</div>
+			<div class="nav_items nav_center">
+				<a class="href" href="index.html">Krypton</a>
+			</div>
+			<div class="nav_items nav_right">
+				<div class="nav_right_item">
+					<a class="href" href="sighin.html">Sigh In</a>
+				</div>
+			</div>
+		</nav>
+		<section class="form-container">
+			<form class="signup" action="signup_post" method="post">
+				<input class="input" id="email" type="email" name="email" placeholder="Email">
+				<input class="input" id="username" type="text" name="username" placeholder="Username">
+				<input class="input" id="password" type="password" name="password" placeholder="Password">
+				<input class="submit" type="submit" value="Sign Up">
+			</form>
+		</section>
+	</header>
+	<footer>
+		<div id="contacts">
+			<h3 class="contact_title">Contacts</h3>
+			<p class="contact_data">Server: irc.ilita.i2p Channel: #krypton</p>
+		</div>
+	</footer>
+</body>
+</html>
